@@ -1,0 +1,136 @@
+int led1 = D7;
+
+void setup() {
+  pinMode(led1, OUTPUT);
+}
+
+// Set short blink for a dot and long blink for a line
+// Short blink will set to 300ms duration for the light on
+// Long blink will set to 600ms duration for the light on
+// Delay between each continuous blink will be 200ms
+// Delay between each segment will be 400ms
+void loop() {
+    // First waiting for start
+    delay(2000);
+    
+    // My first name is DONGYANG
+    // Start with D -..
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    
+    // long delay betwen segment
+    delay(400);
+    
+    // O ---
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    
+    // Long delay betwen segment
+    delay(400);
+    
+    // N -.
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    
+    // Long delay for segment
+    delay(200);
+    
+    // G --.
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    
+    // Long delay for segment
+    delay(400);
+    
+    // Y -.--
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    
+    // Long delay for segment
+    delay(400);
+    
+    // A .-
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    
+    // Long delay for segment
+    delay(400);
+    
+    // N -.
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    
+    // Long delay for segemnt
+    delay(400);
+    
+    // G --.
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    digitalWrite(led1, HIGH);
+    delay(300);
+    digitalWrite(led1, LOW);
+    
+    // Back to top and repeat
+}
+
